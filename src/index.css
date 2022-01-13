@@ -1,3 +1,96 @@
 * {
   box-sizing: border-box;
+  background-color: #F4F4F4;
+}
+
+.App{
+  max-width: 100%;
+  height: 100vh;
+  background-color: #F4F4F4;
+}
+
+.header{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+}
+
+.title{
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #A55318;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 20px 0 10px 50px;
+  background-color: #F4F4F4;
+}
+
+.experience-container{
+  display:flex;
+  margin: 0 0 30px 0;
+  padding-bottom: 20px;
+  border-bottom: solid 3px #2f4d7a;
+}
+
+.pictures{
+  width:250px;
+  height: 300px;
+  border-radius: 6px;
+}
+
+.experience-description{
+  max-width: 100%;
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+.locationStuff{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.location{
+  width: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.locationLogo{
+  width: 20px;
+  height: 20px;
+  margin-right:5px;
+}
+
+.maps{
+  text-decoration: underline;
+  color: #939393;
+}
+
+.experience-title{
+  margin:0 0 20px 0;
+  font-size: 2em;
+}
+
+.dateStuff{
+  display: flex;
+}
+
+.startDate{
+  margin:0;
+}
+
+.endDate{
+  margin:0;
 }
