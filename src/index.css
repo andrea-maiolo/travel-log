@@ -31,7 +31,7 @@
   display: flex;
   flex-direction: column;
   max-width: 100%;
-  margin: 20px 0 10px 50px;
+  margin: 20px 100px 0 100px;
   background-color: #F4F4F4;
 }
 
@@ -48,7 +48,7 @@
   border-radius: 6px;
 }
 
-.experience-description{
+.experience-info{
   max-width: 100%;
   display: flex;
   max-width: 100%;
@@ -63,7 +63,7 @@
 }
 
 .location{
-  width: 100px;
+  margin-right: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -83,14 +83,15 @@
   font-size: 2em;
 }
 
-.dateStuff{
-  display: flex;
+.date{
+  margin:0;
+  font-weight: 600;
 }
 
-.startDate{
-  margin:0;
+.experience-description{
+  font-family: cursive;
 }
 
-.endDate{
-  margin:0;
+#lastElement{
+  border-bottom: none;
 }

@@ -5,6 +5,13 @@ import data from './data.js'
 
 function App() {
   const dataElements = data.map( item => {
+    if(item.id == data.length){
+      return <Main 
+              key={item.id}
+              {...item}
+              lastElement ={true}
+            />
+    }
     return <Main 
             key={item.id}
             {...item}
